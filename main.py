@@ -11,6 +11,6 @@ print('\nHere are the solutions...\n')
 # print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True))
 print(arithmetic_arranger(["32 - 698", "1 - 3801", "45 + 43", "123 + 49"], True))
 
-
 # Run unit tests automatically
+print('\nUnit Tests\n')
 main(module='test_module', exit=False)

@@ -52,14 +52,14 @@ def arithmetic_arranger(problems, solve=False):
             line3 = line3 + '-'.ljust(len(equation[0])+2, '-')
 
             if solve:
-                line4 = line4 + '  ' + str(ans).rjust(len(equation[0]), ' ')
+                line4 = line4 + str(ans).rjust(len(equation[0])+2, ' ')
         else:
             line1 = line1 + '  ' + equation[0].rjust(len(equation[2]), ' ') 
             line2 = line2 + equation[1].ljust(2, ' ') + equation[2].rjust(len(equation[2]), ' ')
             line3 = line3 + '-'.ljust(len(equation[2])+2, '-')
 
             if solve:
-                line4 = line4 + '  ' + str(ans).rjust(len(equation[2]), ' ')
+                line4 = line4 + str(ans).rjust(len(equation[2])+2, ' ')
 
     # Solve if needed, otherwise return the provlems
     if solve:
